@@ -1,0 +1,67 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 90%;
+    margin: 110px auto;
+    
+}
+.state{
+    padding: 5px 0 50px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none; 
+}
+.district{
+    padding: 5px 0 50px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none; 
+}
+
+.input input{
+    padding: 5px 0 50px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+}
+.input textarea{
+    height: 150px;
+    /* resize: none; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+}
+.category p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: grey;
+}
+.category button{
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    color: grey;
+    cursor: pointer;
+}
+.save_btn button{
+    padding: 12px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(16, 105, 141);
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 0 0 350px;
+}
+.contain{
+    width: 60%;
+    background-color: whitesmoke;
+    margin-left: 300px;
+}
